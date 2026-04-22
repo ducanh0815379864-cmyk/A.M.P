@@ -1,0 +1,35 @@
+body{
+margin:0;
+font-family:Arial;
+background:#0f0f0f;
+color:white;
+}
+
+header{
+text-align:center;
+padding:50px;
+background:black;
+}
+
+nav{
+text-align:center;
+background:#1c1c1c;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+section{
+padding:40px;
+}
+
+.card, .music-card{
+background:#1c1c1c;
+padding:20px;
+margin:10px 0;
+border-radius:10px;
+}
