@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Indie Music Label</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>INDIE MUSIC LABEL</h1>
+<p>Building music from zero 🚀</p>
+</header>
+
+<nav>
+<a href="#news">Thông báo</a>
+<a href="#music">Sản phẩm</a>
+<a href="#activities">Hoạt động</a>
+</nav>
+
+<section id="news">
+<h2>📢 Thông báo</h2>
+
+<div class="card">
+<h3>Tuyển thành viên</h3>
+<p>Artist / Producer / Media / Marketing</p>
+</div>
+
+</section>
+
+<section id="music">
+<h2>🎧 Sản phẩm</h2>
+
+<div class="music-card">
+<h3>Demo 1</h3>
+<p>Team project</p>
+</div>
+
+</section>
+
+<section id="activities">
+<h2>📸 Hoạt động</h2>
+
+<p>Coming soon...</p>
+
+</section>
+
+</body>
+</html>
