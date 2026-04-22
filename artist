@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Artists</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>OUR ARTISTS</h1>
+
+<div class="artist">
+<img src="https://via.placeholder.com/200">
+<h3>Anh BMO</h3>
+<p>Rap / Music Director / Music Producer</p>
+</div>
+
+<div class="artist">
+<img src="https://via.placeholder.com/200">
+<h3>NEGAN D</h3>
+<p>Rap / Underground / Chinese Vibe</p>
+</div>
+
+<div class="artist">
+<img src="https://via.placeholder.com/200">
+<h3>Akaza</h3>
+<p>Rap / Underground</p>
+</div>
+
+<div class="artist">
+<img src="https://via.placeholder.com/200">
+<h3>Daisy</h3>
+<p>Pop / Ballad / Indie</p>
+</div>
+
+<a href="index.html">← Back</a>
+
+</body>
+</html>
