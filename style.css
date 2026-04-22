@@ -50,17 +50,16 @@ text-align:center;
 .artist-card{
 position:relative;
 width:250px;
-margin:20px;
+height:300px;
 overflow:hidden;
 border-radius:10px;
 }
 
 .artist-card img{
 width:100%;
-height:300px;
+height:100%;
 object-fit:cover;
 filter:brightness(70%);
-transition:0.3s;
 }
 
 .artist-info{
@@ -69,11 +68,6 @@ bottom:0;
 left:0;
 padding:15px;
 color:white;
-}
-
-.artist-card:hover img{
-transform:scale(1.1);
-filter:brightness(100%);
 }
 
 .artist-list{
