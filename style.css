@@ -90,12 +90,26 @@ z-index:999;
 .social-fixed img{
 width:20px;
 height:20px;
-filter:brightness(0) invert(1);
 transition:0.3s;
 cursor:pointer;
 }
 
 .social-fixed img:hover{
 transform:scale(1.2);
-filter:brightness(0) invert(1) drop-shadow(0 0 5px white);
+}
+
+.social-fixed a.fb:hover img{
+filter: drop-shadow(0 0 6px #1877f2);
+}
+
+.social-fixed a.yt:hover img{
+filter: drop-shadow(0 0 6px #ff0000);
+}
+
+.social-fixed a.ig:hover img{
+filter: drop-shadow(0 0 6px #e1306c);
+}
+
+.social-fixed a.dc:hover img{
+filter: drop-shadow(0 0 6px #5865f2);
 }
