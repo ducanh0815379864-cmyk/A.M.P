@@ -116,3 +116,10 @@ filter: drop-shadow(0 0 6px #e1306c);
 .social-fixed a.dc:hover img{
 filter: drop-shadow(0 0 6px #5865f2);
 }
+
+nav a{
+transition:0.3s;
+}
+nav a:hover{
+color:#ff4d4d;
+}
