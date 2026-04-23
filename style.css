@@ -128,5 +128,5 @@ transition:0.3s;
 }
 
 .music-card:hover{
-transform:translateY(-5px);
+transform:translateY(-5px) scale(1.02);
 }
