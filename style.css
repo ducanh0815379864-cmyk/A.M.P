@@ -123,13 +123,6 @@ transition:0.3s;
 nav a:hover{
 color:#ff4d4d;
 }
-.music-card{
-transition:0.3s;
-}
-
-.music-card:hover{
-transform:translateY(-5px) scale(1.02);
-}
 
 .music-list{
 display:flex;
@@ -144,6 +137,7 @@ background:#1c1c1c;
 padding:15px;
 border-radius:10px;
 transition:0.3s;
+margin:0;
 }
 
 .music-card iframe{
