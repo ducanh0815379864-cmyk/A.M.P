@@ -114,5 +114,20 @@ allowfullscreen>
 </a>
 
 </div>
+<script>
+function scrollMusic(direction){
+const container = document.getElementById("musicContainer");
+const scrollAmount = 250;
+
+container.scrollBy({
+left: direction * scrollAmount,
+behavior: "smooth"
+});
+}
+</script>
+function scrollMusic(direction){
+...
+}
+</script>
 </body>
 </html>
