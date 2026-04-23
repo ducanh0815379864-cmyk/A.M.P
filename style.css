@@ -147,5 +147,5 @@ border-radius:8px;
 }
 
 .music-card:hover{
-transform:translateY(-5px);
+transform:translateY(-5px) scale(1.02);
 }
