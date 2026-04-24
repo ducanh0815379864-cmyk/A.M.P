@@ -218,6 +218,7 @@ transform:translateY(0);
 }
 }
 
+.hero h1{
 text-shadow:0 0 20px rgba(255,255,255,0.5);
 
 .view-more{
@@ -233,15 +234,9 @@ font-weight:bold;
 text-decoration:underline;
 }
 
-.view-more{
-display:block;
-text-align:center;
-margin-top:20px;
-color:#ff4d4d;
-text-decoration:none;
-font-weight:bold;
+.home-music{
+flex-wrap:nowrap;
 }
-
-.view-more:hover{
-text-decoration:underline;
+.page-music{
+flex-wrap:wrap;
 }
