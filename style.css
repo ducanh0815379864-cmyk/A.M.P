@@ -240,3 +240,8 @@ display:grid;
 grid-template-columns: repeat(5, 1fr);  /* 5 cột auto */
 gap:20px;
 }
+
+.home-music .music-card{
+width:220px;        /* fix cứng cho index */
+height:320px;       /* giữ đồng đều */
+}
