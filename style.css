@@ -133,9 +133,6 @@ gap:20px;
 }
 
 .music-card{
-width:18%;
-min-width:180px;
-
 background:#1c1c1c;
 padding:15px;
 border-radius:10px;
@@ -239,5 +236,7 @@ text-decoration:underline;
 flex-wrap:nowrap;
 }
 .page-music{
-flex-wrap:wrap;
+display:grid;
+grid-template-columns: repeat(5, 1fr);  /* 5 cột auto */
+gap:20px;
 }
