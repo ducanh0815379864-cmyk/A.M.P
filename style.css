@@ -249,10 +249,8 @@ width:18%;
 min-width:180px;
 }
 .page-music .music-card{
-height:320px;
-display:flex;
-flex-direction:column;
-justify-content:space-between;
+width:18%;
+min-width:180px;
 }
 .fake-thumb{
 height:140px;
