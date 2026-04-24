@@ -127,7 +127,7 @@ color:#ff4d4d;
 
 .music-list{
 display:flex;
-flex-wrap:nowrap;
+flex-wrap:wrap;
 justify-content:center;
 gap:20px;
 }
@@ -220,6 +220,7 @@ transform:translateY(0);
 
 .hero h1{
 text-shadow:0 0 20px rgba(255,255,255,0.5);
+}
 
 .view-more{
 display:block;
