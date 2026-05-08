@@ -257,29 +257,33 @@ height:140px;
 background:#2a2a2a;
 border-radius:8px;
 }
-@media (max-width: 1024px){
-.page-music{
-grid-template-columns: repeat(3, 1fr);
-}
-}
+@media (max-width:768px){
 
-@media (max-width: 768px){
 .page-music{
 grid-template-columns: repeat(2, 1fr);
 }
 
 .home-music{
-flex-wrap:wrap;
-justify-content:center;
+overflow-x:auto;
+flex-wrap:nowrap;
+justify-content:flex-start;
+padding-bottom:10px;
 }
 
 .home-music .music-card{
-width:45%;
+min-width:220px;
 height:300px;
+flex-shrink:0;
 }
-.home-music .music-card:nth-child(n+5){
-display:none !important;
+
+.home-music .music-card:nth-of-type(n+5){
+display:none;
 }
+
+.home-music::-webkit-scrollbar{
+display:none;
+}
+
 }
 
 @media (max-width: 480px){
