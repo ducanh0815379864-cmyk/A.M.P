@@ -278,7 +278,7 @@ width:45%;
 height:300px;
 }
 .home-music .music-card:nth-child(n+5){
-display:none;
+display:none !important;
 }
 }
 
