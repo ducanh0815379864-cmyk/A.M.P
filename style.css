@@ -57,6 +57,8 @@ width:250px;
 height:300px;
 overflow:hidden;
 border-radius:10px;
+transition:0.4s;
+cursor:pointer;
 }
 
 .artist-card img{
@@ -64,6 +66,7 @@ width:100%;
 height:100%;
 object-fit:cover;
 filter:brightness(70%);
+transition:0.4s;
 }
 
 .artist-info{
@@ -72,6 +75,16 @@ bottom:0;
 left:0;
 padding:15px;
 color:white;
+}
+.artist-card:hover{
+transform:translateY(-8px) scale(1.03);
+box-shadow:0 0 25px rgba(255,77,77,0.4);
+z-index:2;
+}
+
+.artist-card:hover img{
+transform:scale(1.08);
+filter:brightness(100%);
 }
 
 .artist-list{
